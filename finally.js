@@ -7,3 +7,8 @@ const p = new Promise((resolve, reject) => {
     }
 });
 
+p
+    .then(console.log)
+    .catch(console.log)
+    .finally(() => console.log('Either of WFH or ofc is fine'))
+    
